@@ -14,7 +14,7 @@ if (AskForConfirmation())
         }
         else if (Directory.Exists(path))
         {
-            Directory.Delete(path, true);
+            Directory.Delete(path);
             Console.WriteLine("Папка успешно удалена.");
         }
         else
